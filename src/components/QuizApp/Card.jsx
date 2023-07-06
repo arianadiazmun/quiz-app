@@ -1,10 +1,10 @@
+const imageUri = process.env.PUBLIC_URL + '/images/';
+
 export default function Card({ data, quizId, quizLenght, handleAnswer }) {
   return (
     <div className="quiz-card">
-      <p>
-        {quizId + 1}/{quizLenght}
-      </p>
-      <h3>{data[quizId].question}</h3>
+      <h2>Guess The Movie <span>({quizId + 1}/{quizLenght})</span></h2>
+        <img src={imageUri + data[quizId].image} alt = ""/>
       <ul>
         {data[quizId].options.map((element, index) => {
           return (<li key={index}
