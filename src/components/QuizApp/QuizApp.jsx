@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./QuizApp.css";
 import Card from "./Card";
-import data from "../../data/quiz.json";
+import data from "../../data/movie.json";
 import Result from "./Result";
 
 const quizLenght = data.length;
