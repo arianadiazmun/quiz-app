@@ -3,10 +3,10 @@ import Footer from "./Footer/Footer";
 
 export default function AppLayout ({children}) {
     return (
-        <>
+        <div id="main-container">
     
         {children}
         <Footer/>
-        </>
+        </div>
     )
 }
