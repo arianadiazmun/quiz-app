@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of France?",
+    "options": [
+{
+    "answer": "Paris",
+    "isCorrect": true
+},
+ 
+{
+    "answer":"New York",
+    "isCorrect": false
+
+},
+ 
+{
+    "answer": "London",
+    "isCorrect": false
+},
+
+{
+    "answer": "Dublin",
+    "isCorrect": false
+}
+
+    ]
+  } ,
+  
+  
+  {
+"id": 2,
+"question": "What is the chemical symbol for the element Oxygen?",
+"options":[
+
+{
+    "answer": "H",
+     "isCorrect": false
+},
+ 
+{
+    "answer":"Li",
+    "isCorrect": false
+
+},
+ 
+{
+    "answer": "O",
+    "isCorrect": true
+},
+
+{
+    "answer": "N",
+    "isCorrect": false
+    
+}
+
+]
+  },
+
+
+  {
+    "id": 3,
+    "question": "Who wrote the famous play Romeo and Juliet?",
+    "options":[
+    
+    {
+        "answer": "Jane Austen",
+         "isCorrect": false
+    },
+     
+    {
+        "answer":"Stephen King",
+        "isCorrect": false
+    
+    },
+     
+    {
+        "answer": "William Shakespeare",
+        "isCorrect": true
+    },
+    
+    {
+        "answer": "Gabriel Garcia Marquez",
+        "isCorrect": false
+        
+    }
+    
+    ]
+  },
+
+  {
+    "id": 4,
+"question": "Which actor played the role of Tony Stark/Iron Man in the Marvel Cinematic Universe?",
+"options":[
+
+{
+    "answer": "Brad Pitt",
+     "isCorrect": false
+},
+ 
+{
+    "answer":"Robert Downey Jr.",
+    "isCorrect": true
+
+},
+ 
+{
+    "answer": "Leonardo Dicaprio",
+    "isCorrect": false
+},
+
+{
+    "answer": "Tom Holland",
+    "isCorrect": false
+    
+}
+]
+  }
+]
